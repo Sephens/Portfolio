@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://portfolio-sephens.vercel.app/" target="_blank">sephens.tech</a>
+  <a href="https://portfolio-sephens.vercel.app/" target="_blank">sephens</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img11.png" />
@@ -25,13 +25,9 @@
     <a href="https://github.com/Sephens/Portfolio/issues">Request Feature</a>
 </h3>
 
-## TL;DR
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Sephens](https://github.com/Sephens/Portfolio). Thanks!
-
 ## Built With
 
-My personal portfolio <a href="https://portfolio-sephens.vercel.app/" target="_blank">sephens.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://portfolio-sephens.vercel.app/" target="_blank">sephens</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
@@ -71,4 +67,4 @@ You will find all the components used and you can edit your information accordin
 
 ### Show your support
 
-Give a ⭐ if you like this website!
+Give a ⭐ if you liked!
