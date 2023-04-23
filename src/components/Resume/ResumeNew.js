@@ -22,17 +22,17 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-//         <Row style={{ justifyContent: "center", position: "relative" }}>
-//           <Button
-//             variant="primary"
-//             href={pdf}
-//             target="_blank"
-//             style={{ maxWidth: "250px" }}
-//           >
-//             <AiOutlineDownload />
-//             &nbsp;Download Resume
-//           </Button>
-//         </Row>
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download Resume
+          </Button>
+        </Row>
 
         <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
