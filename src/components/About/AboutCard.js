@@ -13,7 +13,7 @@ function AboutCard() {
             <br />I am an Undergraduate holding a Bachelors Degree in Information Technology Second Class honors(Upper Division) from the Kibabii University, Bungoma Kenya.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that I love to do include!
           </p>
           <ul>
             <li className="about-activity">
