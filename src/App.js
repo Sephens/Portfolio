@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
-import Navbar1 from "./components/Navigation/Navbar1";
+// import Navbar1 from "./components/Navigation/Navbar1";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
@@ -34,7 +34,7 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        <Navbar1 />
+        {/* <Navbar1 /> */}
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />

@@ -42,8 +42,6 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
-
-      <Home2 />
     </section>
   );
 }
