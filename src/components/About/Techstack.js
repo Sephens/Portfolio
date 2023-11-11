@@ -8,6 +8,12 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiCloud9,
+  DiLinux,
+  DiTrello,
+  DiDatabase,
+  DiMysql,
+  DiPostgresql
 } from "react-icons/di";
 import {
   SiPytorch,
@@ -47,6 +53,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
       </Col>
     </Row>
   );
