@@ -315,7 +315,7 @@ button:focus {
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #d6ec0f !important;
+  color: white !important;
 }
 
 @media (max-width: 767px) {
