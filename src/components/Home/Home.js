@@ -5,13 +5,22 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 
+
+// Functional component definition
 export default function Home() {
   return (
     <section>
+
+      {/* Container for the home section with a custom class and id */}
       <Container fluid className="home-section" id="home">
+        {/* Custom Particle component for adding particle animation in the background */}
         <Particle />
+
+        {/* Container for the content inside the home section */}
         <Container className="home-content">
+          // Row for arranging contents in a horizontal layout
           <Row>
+            // Column for the left side of the row (containing text content)
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hello{" "}
@@ -30,13 +39,14 @@ export default function Home() {
               </div>
             </Col>
 
+            // Column for the right side of the row (containing an image)
             <Col md={5} style={{ paddingBottom: 20 }}>
-              {/* <img
+              <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
-              /> */}
+              />
             </Col>
           </Row>
         </Container>
