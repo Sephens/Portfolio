@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/test.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -18,9 +18,8 @@ export default function Home() {
 
         {/* Container for the content inside the home section */}
         <Container className="home-content">
-          // Row for arranging contents in a horizontal layout
           <Row>
-            // Column for the left side of the row (containing text content)
+            {/* // Column for the left side of the row (containing text content) */}
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hello{" "}
@@ -30,7 +29,7 @@ export default function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                This is 
                 <strong className="main-name"> STEVE</strong>
               </h1>
 
@@ -39,7 +38,7 @@ export default function Home() {
               </div>
             </Col>
 
-            // Column for the right side of the row (containing an image)
+            {/* // Column for the right side of the row (containing an image) */}
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
