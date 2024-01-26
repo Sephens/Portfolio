@@ -9,7 +9,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
-function Projects() {
+export default function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -92,5 +92,3 @@ function Projects() {
     </Container>
   );
 }
-
-export default Projects;

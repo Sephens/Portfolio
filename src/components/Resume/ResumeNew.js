@@ -11,7 +11,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const resumeLink =
   "https://raw.githubusercontent.com/Sephens/Portfolio/master/src/Assets/Steven_Odhiambo.pdf";
 
-function ResumeNew() {
+export default function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -55,5 +55,3 @@ function ResumeNew() {
     </div>
   );
 }
-
-export default ResumeNew;
