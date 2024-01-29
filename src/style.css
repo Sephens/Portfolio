@@ -485,7 +485,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px #14d31e !important;
+  box-shadow: 0 4px 5px 3px #3E3232 !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -495,7 +495,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px whitesmoke !important;
+  box-shadow: 0 4px 4px 5px #DCF2F1 !important;
 }
 
 .blog-card {
@@ -515,7 +515,7 @@ button:focus {
 }
 
 .blog-link {
-  color: white !important;
+  color: #DCF2F1 !important;
   text-decoration: none !important;
 }
 
@@ -543,21 +543,21 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #14d31e !important;
-  border-color: #14d31e !important;
+  background-color: #A87c7c !important;
+  border-color: #DCF2F1 !important;
 }
 
 .btn-primary:hover {
-  color: #14d31e !important;
-  background-color: white !important;
-  border-color: #d6ec0d !important;
+  color: #A87C7C !important;
+  background-color: #DCF2F1 !important;
+  border-color: #A87C7C !important;
 }
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 .project-heading {
-  color: whitesmoke !important;
+  color: #DCF2F1 !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -572,7 +572,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: whitesmoke !important;
+  color: #DCF2F1 !important;
 }
 
 .tech-icons {
@@ -580,7 +580,7 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(65, 212, 7, 0.637) !important;
+  border: 1.7px solid #A87C7C !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -600,7 +600,7 @@ button:focus {
   transform: scale(0.9) !important;
   overflow: hidden !important;
   border: 2.2px solid whitesmoke !important;
-  color: #14d31e;
+  color: #A87C7C;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -609,7 +609,7 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
+  color: #DCF2F1 !important;
   background-color: transparent !important;
 }
 
@@ -633,7 +633,7 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: #DCF2F1 !important;
 }
 
 .resume {
@@ -671,14 +671,14 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #8a49a8;
+  border-left: 2px solid #A87C7C;
   position: relative;
 }
 
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #5234795d;
+  background: #3E3232;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
@@ -707,8 +707,8 @@ button:focus {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #8a49a8;
+  background: #DCF2F1;
+  border: 2px solid #3E3232;
 }
 
 .like-item {
@@ -718,8 +718,8 @@ button:focus {
 }
 
 .like-btn {
-  background-color: #181a27 !important;
-  border-color: #934cce5e !important;
+  background-color: #A87C7C !important;
+  border-color: #3E3232 !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -728,8 +728,8 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #A87C7C !important;
+  border-color: #A87C7C !important;
 }
 
 .animate-like {
@@ -753,7 +753,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #181a27 !important;
+  background-color: #3E3232 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -761,8 +761,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: whitesmoke !important;
-  border-color: whitesmoke !important;
+  background-color: #DCF2F1 !important;
+  border-color: #DCF2F1 !important;
 }
 .fork-btn-inner::after {
   display: none !important;
