@@ -5,10 +5,10 @@ html {
     rgba(163, 118, 130, 0.863)
   );
 
-  --image-gradient: linear-gradient(
-    to rgb(168, 124, 124, 0.678),
-    rgba(163, 118, 130, 0.863)
-  );
+  /* --image-gradient: linear-gradient(
+    to rgb(160, 118, 120, 0.333),
+    rgba(155, 112, 126, 0.655)
+  ); */
 
   --imp-text-color: #A87c7c;
 }
