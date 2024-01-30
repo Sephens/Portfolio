@@ -1,14 +1,13 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgb(168, 124, 124, 0.678),
+    rgba(163, 118, 130, 0.863)
   );
 
   --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    to rgb(168, 124, 124, 0.678),
+    rgba(163, 118, 130, 0.863)
   );
 
   --imp-text-color: #A87c7c;
@@ -291,7 +290,7 @@ button:focus {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  color: #DCF2F1;
   text-align: left;
 }
 
@@ -427,10 +426,10 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: #503c3c;
+  background-color: #3E3232;
   bottom: 0 !important;
   padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding-bottom: 8px !important;
 }
 .footer-copywright {
   text-align: center !important;
@@ -453,7 +452,7 @@ button:focus {
 
 .footer h3 {
   font-size: 1em;
-  color: white !important;
+  color: #DCF2F1 !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
