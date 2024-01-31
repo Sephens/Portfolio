@@ -6,9 +6,6 @@ html {
   );
 
   --image-gradient: linear-gradient(
-    /* to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863) */
     to bottom left, 
     rgb(160, 118, 120, 0.678),
     rgba(155, 112, 126,  0.863)
@@ -60,7 +57,7 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #7e6363;
 }
 
 /* Handle */
@@ -71,7 +68,7 @@ button:focus {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: whitesmoke;
+  background: #DCF2F1;
   border-radius: 12px;
 }
 
@@ -79,14 +76,14 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #242e1aa9 !important;
+  background-color: #3E3232 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
 
 .sticky1 {
-  background-color: #242e1aa9 !important;
+  background-color: #3E3232 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
