@@ -635,12 +635,17 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: #DCF2F1 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .resume-left {
