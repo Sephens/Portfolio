@@ -281,7 +281,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-color: #503c3c;
+  /* background-color: #503c3c; */
   /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
@@ -344,6 +344,7 @@ button:focus {
 
 .home-about-section {
   position: relative;
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   padding-bottom: 70px !important;
   padding-top: 70px !important;
 }
