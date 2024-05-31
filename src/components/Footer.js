@@ -4,7 +4,10 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineClose ,
 } from "react-icons/ai";
+import { IoCloseSharp } from 'react-icons/io5';
+
 import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
@@ -38,7 +41,7 @@ export default function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                <IoCloseSharp />
               </a>
             </li>
             <li className="social-icons">
