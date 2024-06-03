@@ -13,12 +13,18 @@ import {
   DiTrello,
   DiDatabase,
   DiMysql,
-  DiPostgresql
+  DiPostgresql,
+  DiScrum,
+  DiBootstrap,
+  DiHtml5,
+  DiCss3
 } from "react-icons/di";
 import {
   SiPytorch,
   SiFirebase,
   SiNextdotjs,
+  SiTypescript,
+  SiLaravel,
 } from "react-icons/si";
 
 function Techstack() {
@@ -60,6 +66,22 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLaravel />
+      </Col>
+      
     </Row>
   );
 }
