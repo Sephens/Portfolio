@@ -11,23 +11,8 @@ function AboutCard() {
             Hello, I am <span className="purple">Steven Odhiambo </span>
             from <span className="purple"> Nairobi, Kenya.</span>
             <br />
-            As a seasoned full-stack web developer with a degree in IT and over
-            five years of experience, I am proficient not only in crafting
-            elegant and efficient web solutions but also in a diverse range of
-            technology domains. With a solid foundation in computer networking
-            and cybersecurity, I bring a comprehensive understanding of
-            infrastructure and security considerations to my development
-            projects, ensuring robust and resilient solutions. Additionally, my
-            expertise extends to project management methodologies, particularly
-            Agile Scrum, where I leverage my skills to lead teams and drive
-            projects to success with agility and efficiency. My proficiency in
-            cloud computing further enhances my ability to design scalable and
-            resilient applications that harness the power of cloud platforms. In
-            every endeavor, I approach challenges with a strategic mindset and a
-            commitment to excellence, striving to deliver results that not only
-            meet but exceed expectations. I am not just a developer; I am a
-            multifaceted technologist, equipped with the knowledge and skills to
-            innovate and excel in today's dynamic tech landscape.
+            I am an experienced ICT professional with a strong background in implementing and maintaining effective Quality Management Systems (QMS) within the IT department. Proficient in drafting and executing ICT maintenance schedules, managing hardware and software systems, and configuring network infrastructure. Skilled in overseeing the installation, configuration, and certification of ICT systems, as well as monitoring equipment performance to ensure optimal functionality. Adept at developing risk registers, data backup schedules, and ICT work plans, including procurement plans and budgets. Competent in managing Active Directory, email systems, and telecommunication facilities, as well as maintaining firewall policies and system interfaces. Experienced in updating corporate databases, websites, and ICT equipment inventories. Strong focus on network security, traffic monitoring, and ensuring high-speed connectivity. Committed to keeping up with technological advancements and emerging cybersecurity risks, providing staff training and support as needed. Skilled in the commissioning, repair, and maintenance of a wide range of ICT equipment, ensuring seamless operational efficiency. I have undertaken many different roles, from system administration to software development, and network management in the course of my career. I have overseen the lifecycle of many IT projects through the various phases starting from planning to actual deployment, within the stipulated time frame and even going beyond what was originally envisaged. Diagnosing technical problem and developing suitable solutions, in most cases has been a vital part of my work.
+
             <br />
             <br />
             <span className="purple">
