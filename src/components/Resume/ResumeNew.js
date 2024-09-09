@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/Sephens/Portfolio/master/src/Assets/mycv.pdf";
+  "https://raw.githubusercontent.com/Sephens/Portfolio/master/src/Assets/cv.pdf";
 
 export default function ResumeNew() {
   const [numPages, setNumPages] = useState(null);
