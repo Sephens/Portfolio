@@ -47,7 +47,7 @@ export default function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Binary Visualization in 3D Software - Ongoing"
+              title="Binary Visualization Tool in 3D Software - Ongoing"
               description="C++, Matplotlib, Chart.js, OpenCV, A tool to distinguish between malicious and benign files based on visualizing the files in 3D geometrical shapes formats."
               ghLink=""
               demoLink="#"              
