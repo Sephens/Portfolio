@@ -1,6 +1,6 @@
 {
-  "name": "mdr-county",
-  "version": "0.1.0",
+  "name": "portfolio",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
