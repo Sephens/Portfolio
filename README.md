@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://portfolio-sephens.vercel.app/" target="_blank">sephens</a>
+  <a href="https://portfolio-lake-five-68.vercel.app/" target="_blank">sephens</a>
 </h2>
 <br/>
 
@@ -23,7 +23,7 @@
 
 ## Built With
 
-My personal portfolio <a href="https://portfolio-sephens.vercel.app/" target="_blank">sephens</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://portfolio-lake-five-68.vercel.app/" target="_blank">sephens</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
