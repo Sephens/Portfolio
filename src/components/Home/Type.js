@@ -7,11 +7,11 @@ export default function Type() {
       options={{
         strings: [
           "Developer",
-          "Data Science",
-          "MERN Stack Developer",
+          "Network Engineer",
           "Open Source Contributor",
           "IT Technical Support Specialist",
-          "Cloud Computing"
+          "Cloud Computing",
+          "Cyber Security Analyst"
         ],
         autoStart: true,
         loop: true,
