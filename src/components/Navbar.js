@@ -97,6 +97,17 @@ export default function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+                as={Link}
+                to="/certificates"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Certificates
+              </Nav.Link>
+            </Nav.Item>
+
+            
+            <Nav.Item>
+              <Nav.Link
                 href="https://code-crumbs.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -104,6 +115,7 @@ export default function NavBar() {
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
+          
 
             <Nav.Item className="fork-btn">
               <Button
