@@ -5,7 +5,7 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
-import riseImg from "../../Assets/r_logo.png"
+import riseImg from "../../Assets/network.svg"
 import Toolstack from "./Toolstack";
 
 function About() {

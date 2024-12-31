@@ -32,7 +32,7 @@ export default function Certs() {
               title="Google Project Management Professional"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               ghLink=""
-              demoLink="#"
+              demoLink="https://www.credly.com/badges/c871ec4f-dbde-48de-973b-d96b79ddf13c/linked_in_profile"
             />
           </Col>
 
@@ -43,7 +43,7 @@ export default function Certs() {
               title="Google CyberSecurity Professional"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
               ghLink=""
-              demoLink="https://code-crumbs.vercel.app/"
+              demoLink="https://www.credly.com/badges/b7d7c72d-b7cb-4b37-b2bc-5883b200e9a2/linked_in_profile"
             />
           </Col>
 
@@ -54,7 +54,7 @@ export default function Certs() {
               title="Google IT Support Professional"
               description="C++, Matplotlib, Chart.js, OpenCV, A tool to distinguish between malicious and benign files based on visualizing the files in 3D geometrical shapes formats."
               ghLink=""
-              demoLink="#"              
+              demoLink="https://www.credly.com/badges/75badda6-0887-4931-a566-f49fd28dc5c6/public_url"              
             />
           </Col>
 
@@ -65,7 +65,7 @@ export default function Certs() {
               title="CCNA 1"
               description="C++, Matplotlib, Chart.js, OpenCV, A tool to distinguish between malicious and benign files based on visualizing the files in 3D geometrical shapes formats."
               ghLink=""
-              demoLink="#"              
+              demoLink="https://www.credly.com/badges/e39abb38-0095-404b-a97f-ec79d08c9203/linked_in_profile"              
             />
           </Col>
           <Col md={4} className="project-card">
@@ -82,10 +82,10 @@ export default function Certs() {
             <ProjectCard
               imgPath={CybersecurityAnalyst}
               isBlog={false}
-              title="Cisco Cybersecurity Analyst"
+              title="Cisco Junior Cybersecurity Analyst"
               description="C++, Matplotlib, Chart.js, OpenCV, A tool to distinguish between malicious and benign files based on visualizing the files in 3D geometrical shapes formats."
               ghLink=""
-              demoLink="#"              
+              demoLink="https://www.credly.com/badges/67afd8fe-7188-4225-bc4f-15dda7fb8c4f/linked_in_profile"              
             />
           </Col>
           <Col md={4} className="project-card">
@@ -106,7 +106,7 @@ export default function Certs() {
               title="Cisco Network Security"
               description="C++, Matplotlib, Chart.js, OpenCV, A tool to distinguish between malicious and benign files based on visualizing the files in 3D geometrical shapes formats."
               ghLink=""
-              demoLink="#"              
+              demoLink="https://www.credly.com/badges/723143ba-94e1-4feb-9cd4-d66b9fad5720/linked_in_profile"              
             />
           </Col>
 
@@ -117,7 +117,7 @@ export default function Certs() {
               title="Cisco Python Essentuals 1"
               description="C++, Matplotlib, Chart.js, OpenCV, A tool to distinguish between malicious and benign files based on visualizing the files in 3D geometrical shapes formats."
               ghLink=""
-              demoLink="#"              
+              demoLink="https://www.credly.com/badges/c96c3cf5-1abc-4d8f-a422-7888648832e1/linked_in_profile"              
             />
           </Col>
           
