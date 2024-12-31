@@ -5,6 +5,12 @@ import Particle from "../Particle";
 import GoogleCyberSecurity from "../../Assets/Certificates/google-cyber.png"
 import GooglePm from "../../Assets/Certificates/google-pm.png"
 import GoogleITSupport from "../../Assets/Certificates/google-support.png"
+import CCNA1 from "../../Assets/Certificates/ccna1.png"
+import CybersecurityAnalyst from "../../Assets/Certificates/Cybersecurity-Analyst.png"
+import IntroCyber from "../../Assets/Certificates/Intro-cyber.png"
+import NetworkSecurity from "../../Assets/Certificates/Network-security.png"
+import PythonEssentials1 from "../../Assets/Certificates/Python_Essentials1.png"
+import IctaCyber from "../../Assets/Certificates/icta-cyber.png"
 import hcia from "../../Assets/Certificates/hcia.png"
 
 export default function Certs() {
@@ -51,6 +57,70 @@ export default function Certs() {
               demoLink="#"              
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CCNA1}
+              isBlog={false}
+              title="CCNA 1"
+              description="C++, Matplotlib, Chart.js, OpenCV, A tool to distinguish between malicious and benign files based on visualizing the files in 3D geometrical shapes formats."
+              ghLink=""
+              demoLink="#"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={IntroCyber}
+              isBlog={false}
+              title="Cisco Introduction to Cybersecurity"
+              description="C++, Matplotlib, Chart.js, OpenCV, A tool to distinguish between malicious and benign files based on visualizing the files in 3D geometrical shapes formats."
+              ghLink=""
+              demoLink="#"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CybersecurityAnalyst}
+              isBlog={false}
+              title="Cisco Cybersecurity Analyst"
+              description="C++, Matplotlib, Chart.js, OpenCV, A tool to distinguish between malicious and benign files based on visualizing the files in 3D geometrical shapes formats."
+              ghLink=""
+              demoLink="#"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={IctaCyber}
+              isBlog={false}
+              title="ICTA Cybersecurity Training"
+              description="C++, Matplotlib, Chart.js, OpenCV, A tool to distinguish between malicious and benign files based on visualizing the files in 3D geometrical shapes formats."
+              ghLink=""
+              demoLink="#"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={NetworkSecurity}
+              isBlog={false}
+              title="Cisco Network Security"
+              description="C++, Matplotlib, Chart.js, OpenCV, A tool to distinguish between malicious and benign files based on visualizing the files in 3D geometrical shapes formats."
+              ghLink=""
+              demoLink="#"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={PythonEssentials1}
+              isBlog={false}
+              title="Cisco Python Essentuals 1"
+              description="C++, Matplotlib, Chart.js, OpenCV, A tool to distinguish between malicious and benign files based on visualizing the files in 3D geometrical shapes formats."
+              ghLink=""
+              demoLink="#"              
+            />
+          </Col>
+          
         </Row>
       </Container>
     </Container>
