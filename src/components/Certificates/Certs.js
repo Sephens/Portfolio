@@ -11,6 +11,10 @@ import IntroCyber from "../../Assets/Certificates/Intro-cyber.png"
 import NetworkSecurity from "../../Assets/Certificates/Network-security.png"
 import PythonEssentials1 from "../../Assets/Certificates/Python_Essentials1.png"
 import IctaCyber from "../../Assets/Certificates/icta-cyber.png"
+import CCNA3 from "../../Assets/Certificates/CCNA3.png"
+import CCNA2 from "../../Assets/Certificates/CCNA2.png"
+import DevNet from "../../Assets/Certificates/DevNet.png"
+import CyberOps from "../../Assets/Certificates/CyberOps.png"
 import hcia from "../../Assets/Certificates/hcia.png"
 
 export default function Certs() {
@@ -25,6 +29,50 @@ export default function Certs() {
           These are my Achievements so far ...
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CyberOps}
+              isBlog={false}
+              title="CyberOps Associate"
+              description="I have completed the CyberOps Associate course. I have a broad understanding of Security Operations. I developed problem-solving skills to detect and analyze intrusions and monitor the network by completing up to 30 hours of 52 hands-on labs using virtual machines (Security Onion - ELK) and/or Cisco Packet Tracer."
+              ghLink=""
+              demoLink="https://www.credly.com/badges/82de672a-ac2e-4942-b915-41a8ae3fb67e/linked_in_profile"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={DevNet}
+              isBlog={false}
+              title="DevNet Associate"
+              description="I have completed the DevNet Associate course, completed 25+ hands-on labs using a virtual lab environment and achieved this student level credential. I have a broad understanding in the areas of Python coding, using Linux, Cisco DevNet, Software Development and Design, Understanding and Using APIs, Network Fundamentals, Application Deployment and Security, Infrastructure and Automation and Cisco Platforms and Development."
+              ghLink=""
+              demoLink="https://www.credly.com/badges/2a298c7f-6984-478c-bc92-b7ef6ace25f4/linked_in_profile"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CCNA2}
+              isBlog={false}
+              title="CCNA 2: Switching, Routing, and Wireless Essentials"
+              description="I have completed the Switching, Routing, and Wireless Essentials course and achieved this student level credential. I have a foundation in switching operations, wired and wireless LAN configuration using security best practices, redundancy protocols, and developed problem-solving skills. I have participated in up to 45 practice activities and accumulated up to 21 hours of hands-on labs using Cisco hardware and/or the Cisco Packet Tracer tool"
+              ghLink=""
+              demoLink="https://www.credly.com/badges/c19a346e-4e60-45ad-94fe-f68685b08a5c/linked_in_profile"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CCNA3}
+              isBlog={false}
+              title="CCNA 3: Endpoint Networking, Security, and Automation"
+              description="I have successfully completed the Enterprise Networking, Security and Automation course and achieved this student level credential. I have a foundation in scalable network architectures, dynamic routing, mitigation of security threats, wide-area networks, virtualization, automation of programmable networks. I participated in up to 41 lab activities and accumulated up to 15 hours of hands-on labs using Cisco hardware and/or Cisco Packet Tracer tool."
+              ghLink=""
+              demoLink="https://www.credly.com/badges/9007ec76-8938-4568-8c0a-ba42377282da/linked_in_profile"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={GooglePm}
