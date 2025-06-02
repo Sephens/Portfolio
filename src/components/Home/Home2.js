@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { IoCloseSharp } from 'react-icons/io5';
 
 export default function Home2() {
   return (
@@ -16,12 +17,10 @@ export default function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              AWS Certified IT Specialist<span className="purple"> -Developer, Networking </span> & Support
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
+              I am skilled in cloud solutions, Software development, and network engineering. Combines Technical expertise in full-stack programming, infrastructure management, and end-user support to deliver efficient, scalable systems. Strong Problem-solver focused on optimizing performance, Security, and reliability. Passionate about bridging technology gaps with innovative solutions <br />
               <br />I am fluent in classics like
               <i>
                 <b className="purple"> C++, Javascript and Python. </b>
@@ -82,7 +81,7 @@ export default function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <IoCloseSharp />
                 </a>
               </li>
               <li className="social-icons">

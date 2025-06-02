@@ -21,7 +21,7 @@ export default function Home() {
           <Row>
             {/* // Column for the left side of the row (containing text content) */}
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 style={{ paddingBottom: 10 }} className="heading">
                 Hello{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
@@ -29,8 +29,8 @@ export default function Home() {
               </h1>
 
               <h1 className="heading-name">
-                My name is
-                <strong className="main-name"> STEVE</strong>
+                I'M 
+                <strong className="main-name purple"> STEVE</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>

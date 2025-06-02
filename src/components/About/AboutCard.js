@@ -1,63 +1,114 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { Container, Row, Col } from "react-bootstrap";
+import myImg from "../../Assets/programmer1.svg";
+import Tilt from "react-parallax-tilt";
+import mypic from "../../Assets/me-r.png";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { IoCloseSharp } from 'react-icons/io5';
 
-function AboutCard() {
+export default function AboutCard() {
   return (
-    <Card className="quote-card-view">
-      <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hello, I am <span className="purple">Steven Odhiambo </span>
-            from <span className="purple"> Kisumu, Kenya.</span>
-            <br />
-              I reflect a varied personality including ambition, and the qualities of generosity, love and thoughtfulness. I am a well determined, vigorous individual, yet pleasantly calm.
-
-              I encourage fighting for what you desire and believe in, and doing it through God because nothing great comes easy and with him, everything is possible.
-              I graduated two years ago with Bachelors Degree in Information Technology and I managed a Second honors (Upper Division), motivated by my love for learning and succeeding as I strive to become an outstanding successful man in today's society. With determined learning and research, driven by my passion for technology, with a definite goal of becoming a professional software and network enginner incorporated with CyberSecurity, I am currently continuing to upskill and grow my knowledge domain in both fields.
-            <br />
-            <br />
-            <span className="purple">
-              Apart from coding, some other activities that I love to do
-              include!
-            </span>
-          </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Networking
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Learning always
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Reading Novels
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> ...
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "The Constituent elements of the world are order and chaos" An
-            orderly code is an orderly mind, meticulously crafting the digital
-            symphony of logic and creativity. A chaotic code is a chaotic
-            labyrinth, where every twist and turn leads to confusion, obscuring
-            the path to clarity and hindering progress at every step.{" "}
-          </p>
-          <footer className="blockquote-footer">Steven</footer>
-        </blockquote>
-      </Card.Body>
-    </Card>
+    <Container fluid className="home-about-section" id="about">
+      <Container>
+        <Row>
+          <Col md={8} className="home-about-description">
+            <h1 style={{ fontSize: "2.6em" }}>
+              AWS Certified IT Specialist<span className="purple"> -Developer, Networking </span> & Support
+            </h1>
+            <p className="home-about-body">
+              I am skilled in cloud solutions, Software development, and network engineering. Combines Technical expertise in full-stack programming, infrastructure management, and end-user support to deliver efficient, scalable systems. Strong Problem-solver focused on optimizing performance, Security, and reliability. Passionate about bridging technology gaps with innovative solutions <br />
+              <br />I am fluent in classics like
+              <i>
+                <b className="purple"> C++, Javascript and Python. </b>
+              </i>
+              <br />
+              <br />
+              My field of Interest's are building new &nbsp;
+              <i>
+                <b className="purple">Web Technologies and Products </b> and
+                also in areas related to{" "}
+                <b className="purple">
+                  Data Science, Cloud Computing and Artificial Intelligence.
+                </b>
+              </i>
+              <br />
+              <br />
+              Whenever possible, I also apply my passion for developing products
+              with <b className="purple">Node.js</b> and
+              <i>
+                <b className="purple">
+                  {" "}
+                  Modern Javascript Library and Frameworks
+                </b>
+              </i>
+              &nbsp; like
+              <i>
+                <b className="purple"> React.js and Next.js</b>
+              </i>
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={mypic} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={12} className="home-about-social">
+            <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/Sephens"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://twitter.com/_Sephens"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <IoCloseSharp />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/steven-adenux/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/_Sephens/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <AiFillInstagram />
+                </a>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+    </Container>
   );
 }
-
-export default AboutCard;

@@ -7,10 +7,10 @@ export default function Type() {
       options={{
         strings: [
           "Developer",
+          "AWS Certified Cloud Practioner",
           "Network Engineer",
           "Open Source Contributor",
           "IT Technical Support Specialist",
-          "Cloud Computing",
           "Cyber Security Analyst"
         ],
         autoStart: true,

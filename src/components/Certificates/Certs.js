@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./CertificateCard";
 import Particle from "../Particle";
+
+
 import GoogleCyberSecurity from "../../Assets/Certificates/google-cyber.png"
 import GooglePm from "../../Assets/Certificates/google-pm.png"
 import GoogleITSupport from "../../Assets/Certificates/google-support.png"
@@ -15,6 +17,7 @@ import CCNA3 from "../../Assets/Certificates/CCNA3.png"
 import CCNA2 from "../../Assets/Certificates/CCNA2.png"
 import DevNet from "../../Assets/Certificates/DevNet.png"
 import CyberOps from "../../Assets/Certificates/CyberOps.png"
+import AWSCCP from "../../Assets/Certificates/AWSCCP.png"
 import hcia from "../../Assets/Certificates/hcia.png"
 
 export default function Certs() {
@@ -29,6 +32,18 @@ export default function Certs() {
           These are my Achievements so far ...
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={AWSCCP}
+              isBlog={false}
+              title="AWS Certified Cloud Practioner"
+              description="Earned a foundational certification  demonstrating a clear understanding of AWS Cloud concepts. services (EC2, S3, IAM, Lambda, etc), security and compliance, architecture, pricing and cost optimization, and support. Validates my availability to navigate AWS Cloud with best practices and identify core solutions for business needs."
+              ghLink=""
+              demoLink="https://www.credly.com/badges/82de672a-ac2e-4942-b915-41a8ae3fb67e/linked_in_profile"
+            />
+          </Col>
+
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={CyberOps}

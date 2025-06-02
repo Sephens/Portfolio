@@ -17,7 +17,7 @@ export default function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Do it no matter what!!</h3>
+          <h3>Keep Learning, embrace challenges, and trust the journey.</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} Steve</h3>
