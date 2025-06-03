@@ -13,16 +13,11 @@ export default function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row style={{ justifyContent: "center", padding: "2px" }}>
           <Col
-            md={7}
-            style={{
-              justifyContent: "center",
-              paddingTop: "10px",
-              paddingBottom: "8px",
-            }}
+            md={3}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "8px" }}>
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "2px" }}>
               Know Who <strong className="purple">I'M</strong>
             </h1>
            
