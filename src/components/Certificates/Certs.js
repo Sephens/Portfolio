@@ -40,7 +40,7 @@ export default function Certs() {
               title="AWS Certified Cloud Practioner"
               description="Earned a foundational certification  demonstrating a clear understanding of AWS Cloud concepts. services (EC2, S3, IAM, Lambda, etc), security and compliance, architecture, pricing and cost optimization, and support. Validates my availability to navigate AWS Cloud with best practices and identify core solutions for business needs."
              
-              demoLink="https://www.credly.com/badges/82de672a-ac2e-4942-b915-41a8ae3fb67e/linked_in_profile"
+              demoLink="https://www.credly.com/badges/6e95fdbc-cb3a-4d7b-864f-34d203e92e54/public_url"
             />
           </Col>
 
