@@ -6,6 +6,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import wr from "../../Assets/Projects/wr.jpeg";
+import titanicDataSet from "../../Assets/Projects/titanic-dataset-eda.png"
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -23,7 +24,7 @@ export default function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-                    <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wr}
               isBlog={false}
@@ -39,6 +40,17 @@ export default function Projects() {
               "
               ghLink="https://github.com/Sephens/CyberShujaa-Data-and-AI/tree/master/assignments/data_wrangling"
               demoLink="https://www.kaggle.com/code/sephensb/netflix-data-wrangling"              
+            />
+          </Col>
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={titanicDataSet}
+              isBlog={false}
+              title="Decoding Survival on the Titanic: A Data-Driven Exploration of Privilege, Demographics, and Disaster Response"
+              description="This exploratory data analysis (EDA) of the Titanic dataset uncovers the socioeconomic and demographic factors influencing survival. Using Python (Pandas, Seaborn, Matplotlib), I analyzed passenger records to reveal stark disparities; gender, class, and age dramatically impacted outcomes. Key findings include 74% female vs. 19% male survival and 1st-class passengers’ 3x higher survival rate. The project highlights data cleaning, visualization, and actionable insights for crisis response."
+              ghLink="https://github.com/Sephens/CyberShujaa-Data-and-AI/tree/master/assignments/data_wrangling"
+              demoLink="https://www.kaggle.com/code/sephensb/decoding-survival-on-the-titanic-data-driven-eda"              
             />
           </Col>
 
