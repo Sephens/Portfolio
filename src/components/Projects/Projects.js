@@ -7,6 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import wr from "../../Assets/Projects/wr.jpeg";
 import hrDash from "../../Assets/Projects/hr_dash.png"
+import powerDash from "../../Assets/Projects/powerDash.png"
 import titanicDataSet from "../../Assets/Projects/titanic-dataset-eda.png"
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
@@ -34,9 +35,20 @@ export default function Projects() {
               title="From Data to Insights: Building a Dynamic HR Dashboard in Tableau"
               description=" Transformed raw HR data into a stunning, interactive dashboard with Tableau. Designed intuitive visualizations for workforce trends, demographics, and pay equity analysis. Features dynamic filters, drill-down capabilities, and polished UI. Empowers HR teams with real-time insights for data-driven decisions. A perfect blend of analytics and design—turning complexity into clarity.  
               
-              ✨ **Skills**: Tableau, Data Storytelling, Dashboard Design
+              ✨Skills: Tableau, Data Storytelling, Dashboard Design
               "
               ghLink="https://github.com/Sephens/CyberShujaa-Data-and-AI/tree/master/assignments/BI/Tableau"
+              demoLink="https://www.kaggle.com/code/sephensb/netflix-data-wrangling"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={powerDash}
+              isBlog={false}
+              title="Revolutionizing Hotel Analytics: A Power BI Dashboard for Smarter Revenue & Guest Experience Optimization"
+              description="Transformed hotel data into strategic gold! Designed an interactive Power BI dashboard with 20+ DAX measures, predictive analytics, and real-time KPIs. Boosted revenue insights, occupancy tracking, and guest experience through AI-powered visuals. A star-schema model ensured lightning-fast analytics."
+              ghLink="https://github.com/Sephens/CyberShujaa-Data-and-AI/tree/master/assignments/BI/powerbi"
               demoLink="https://www.kaggle.com/code/sephensb/netflix-data-wrangling"              
             />
           </Col>
