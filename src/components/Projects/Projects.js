@@ -38,7 +38,7 @@ export default function Projects() {
               ✨Skills: Tableau, Data Storytelling, Dashboard Design
               "
               ghLink="https://github.com/Sephens/CyberShujaa-Data-and-AI/tree/master/assignments/BI/Tableau"
-              demoLink="https://www.kaggle.com/code/sephensb/netflix-data-wrangling"              
+              demoLink="https://public.tableau.com/app/profile/steven.odhiambo4475/viz/HRDashboard_17512710694320/HRSUMMARY?publish=yes"              
             />
           </Col>
 
