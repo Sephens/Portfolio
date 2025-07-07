@@ -6,6 +6,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import wr from "../../Assets/Projects/wr.jpeg";
+import classification_models from "../../Assets/Projects/classification_models.png";
 import hrDash from "../../Assets/Projects/hr_dash.png"
 import powerDash from "../../Assets/Projects/powerDash.png"
 import titanicDataSet from "../../Assets/Projects/titanic-dataset-eda.png"
@@ -30,7 +31,7 @@ export default function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={hrDash}
+              imgPath={classification_models}
               isBlog={false}
               title="Optimizing Wine Varietal Identification: Performance Analysis of 6 Classification Algorithms"
               description=" Developed and compared six machine learning models (Logistic Regression, Decision Tree, Random Forest, KNN, Naive Bayes, SVM) to classify wine types. Performed EDA, data preprocessing, and model evaluation using accuracy, precision, recall, and F1-score. Random Forest and SVM demonstrated optimal performance. Highlights strong analytical and predictive modeling skills."
