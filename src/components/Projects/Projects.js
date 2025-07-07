@@ -28,6 +28,17 @@ export default function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hrDash}
+              isBlog={false}
+              title="Optimizing Wine Varietal Identification: Performance Analysis of 6 Classification Algorithms"
+              description=" Developed and compared six machine learning models (Logistic Regression, Decision Tree, Random Forest, KNN, Naive Bayes, SVM) to classify wine types. Performed EDA, data preprocessing, and model evaluation using accuracy, precision, recall, and F1-score. Random Forest and SVM demonstrated optimal performance. Highlights strong analytical and predictive modeling skills."
+              ghLink="https://github.com/Sephens/CyberShujaa-Data-and-AI/tree/master/Projects/AI/ML/Classification%20Models"
+              demoLink="https://colab.research.google.com/drive/1WlbZMYRks-Es4E-YsvZbWJRhPV9YVqx0?usp=sharing"              
+            />
+          </Col>
+
             <Col md={4} className="project-card">
             <ProjectCard
               imgPath={hrDash}
