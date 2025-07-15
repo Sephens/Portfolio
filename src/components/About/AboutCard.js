@@ -21,19 +21,19 @@ export default function AboutCard() {
               AWS Certified IT Specialist<span className="purple"> -Developer, Networking </span> & Support
             </h1>
             <p className="home-about-body">
-              I am skilled in cloud solutions, Software development, and network engineering. Combines Technical expertise in full-stack programming, infrastructure management, and end-user support to deliver efficient, scalable systems. Strong Problem-solver focused on optimizing performance, Security, and reliability. Passionate about bridging technology gaps with innovative solutions <br />
+              I am skilled in Data and AI, Cloud solutions, Software development, and Network engineering. Combines Technical expertise in full-stack programming, Data Anlysis and Training Models, infrastructure management, and end-user support to deliver efficient, scalable systems. Strong Problem-solver focused on optimizing performance, Security, and reliability. Passionate about bridging technology gaps with innovative solutions <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Data Analysis, Machine Learning, Javascript and Python. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Web Technologies and Products, Data Analysis, Cloud Computing </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Data Science, Cloud Computing and Artificial Intelligence.
+                  Artificial Intelligence.
                 </b>
               </i>
               <br />

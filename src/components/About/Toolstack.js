@@ -8,7 +8,12 @@ import {
   SiVercel,
   SiTrello,
   SiGithub,
-  SiGooglechrome
+  SiGooglechrome,
+  SiPowerbi,
+  SiTableau,
+  SiScikitlearn,
+  SiPandas,
+  SiGooglecolab
 } from "react-icons/si";
 
 
@@ -17,6 +22,26 @@ function Toolstack() {
   "use strict";
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+       <Col xs={4} md={2} className="tech-icons">
+        <SiTableau />
+      </Col>
+
+       <Col xs={4} md={2} className="tech-icons">
+        <SiPowerbi />
+      </Col>
+
+       <Col xs={4} md={2} className="tech-icons">
+        <SiPandas />
+      </Col>
+
+       <Col xs={4} md={2} className="tech-icons">
+        <SiScikitlearn />
+      </Col>
+
+       <Col xs={4} md={2} className="tech-icons">
+        <SiGooglecolab />
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiLinux />
       </Col>
