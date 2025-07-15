@@ -6,10 +6,11 @@ export default function Type() {
     <Typewriter
       options={{
         strings: [
-          "Developer",
+          "Data Analyst",
+          "Python Developer",
           "AWS Certified Cloud Practioner",
-          "Network Engineer",
-          "Open Source Contributor",
+          "Cloud Engineer",
+          "Machine Learning",
           "IT Technical Support Specialist",
           "Cyber Security Analyst"
         ],
