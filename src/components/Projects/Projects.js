@@ -7,6 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import wr from "../../Assets/Projects/wr.jpeg";
 import classification_models from "../../Assets/Projects/classification_models.png";
+import mlops from "../../Assets/Projects/mlops.png";
 import hrDash from "../../Assets/Projects/hr_dash.png"
 import powerDash from "../../Assets/Projects/powerDash.png"
 import titanicDataSet from "../../Assets/Projects/titanic-dataset-eda.png"
@@ -28,6 +29,17 @@ export default function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mlops}
+              isBlog={false}
+              title="End-to-End MLOps Pipeline: California Housing Price Prediction with KNN Optimization"
+              description=" Built an end-to-end ML pipeline predicting California housing prices using Scikit-Learn. Implemented preprocessing, KNN regression with hyperparameter tuning (GridSearchCV), and model persistence. Achieved 0.70 R² score, demonstrating core MLOps principles: reproducibility, validation, and deployment readiness."
+              ghLink="https://github.com/Sephens/CyberShujaa-Data-and-AI/blob/master/Projects/AI/ML/MLOPs/mlops.py"
+              demoLink="https://colab.research.google.com/drive/15hkriMXVmJuvBFOJvmrEawglZoJOkycA?usp=sharing"              
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
