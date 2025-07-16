@@ -275,14 +275,14 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 12px !important;
 }
 
 .home-section {
   position: relative;
   z-index: -1;
-  /* background-color: #503c3c; */
-  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
+  background-color: #503c3c;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -296,12 +296,12 @@ button:focus {
 }
 
 .heading {
-  font-size: 3.4em !important;
+  font-size: 2em !important;
   padding-left: 50px !important;
 }
 
 .heading2 {
-  font-size: 2.5em !important;
+  font-size: 1.5em !important;
   padding-left: 50px !important;
 }
 
@@ -437,6 +437,7 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
+  /* position: fixed; */
 }
 .footer-copywright {
   text-align: center !important;
@@ -577,6 +578,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-image: var(--section-background-color) !important;
   color: #DCF2F1 !important;
 }

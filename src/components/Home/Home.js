@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/Hand coding-bro.svg";
 import Particle from "../Particle";
-import Home2 from "./Home2";
 import Type from "./Type";
 
 
@@ -20,7 +19,7 @@ export default function Home() {
         <Container className="home-content">
           <Row>
             {/* // Column for the left side of the row (containing text content) */}
-            <Col md={7} className="home-header">
+            <Col md={6} className="home-header">
               <h1 style={{ paddingBottom: 16 }} className="heading">
                 Transforming Data into Insights, Code into Solutions, and Clouds into Scalable Power
               </h1>
@@ -39,18 +38,17 @@ export default function Home() {
             </Col>
 
             {/* // Column for the right side of the row (containing an image) */}
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={6} style={{ paddingBottom: 20}}>
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "500px" }}
               />
             </Col>
           </Row>
         </Container>
       </Container>
-      {/* <Home2 /> */}
     </section>
   );
 }
