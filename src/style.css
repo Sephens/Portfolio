@@ -300,6 +300,11 @@ button:focus {
   padding-left: 50px !important;
 }
 
+.heading2 {
+  font-size: 2.5em !important;
+  padding-left: 50px !important;
+}
+
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 25px !important;

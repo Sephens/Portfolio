@@ -102,7 +102,7 @@ export default function NavBar() {
                 to="/certificates"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Certificates
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Certifications
               </Nav.Link>
             </Nav.Item>
 

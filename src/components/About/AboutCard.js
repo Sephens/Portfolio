@@ -17,39 +17,23 @@ export default function AboutCard() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              AWS Certified IT Specialist<span className="purple"> -Developer, Networking </span> & Support
-            </h1>
             <p className="home-about-body">
-              I am skilled in Data and AI, Cloud solutions, Software development, and Network engineering. Combines Technical expertise in full-stack programming, Data Anlysis and Training Models, infrastructure management, and end-user support to deliver efficient, scalable systems. Strong Problem-solver focused on optimizing performance, Security, and reliability. Passionate about bridging technology gaps with innovative solutions <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Data Analysis, Machine Learning, Javascript and Python. </b>
-              </i>
+              Hello! I’m Steven Odhiambo, a Python-powered problem solver with a passion for turning raw data into actionable stories. With expertise in machine learning, cloud engineering (AWS), and full-stack development, I thrive where logic meets creativity. <br />
+              <br />My toolbox includes: <br></br><br></br>
+
+              <ui>
+                <i>🐍 Python for automation, ML (Scikit-learn, TensorFlow), and analytics.</i> <br></br><br></br>
+                <i>📊 Power BI & Tableau for crafting interactive, boardroom-ready dashboards.</i><br></br><br></br>
+                <i>☁️ AWS (EC2, S3, Lambda) to build scalable, cost-efficient systems.</i><br></br><br></br>
+                <i>🌐 Frontend (HTML/CSS/JS + React) to design pixel-perfect UIs.</i><br></br><br></br>
+                <i>📡 Advanced Networking to ensure seamless connectivity.</i><br></br><br></br>
+              </ui>
+
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products, Data Analysis, Cloud Computing </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Artificial Intelligence.
-                </b>
-              </i>
+              When I’m not coding or crafting dashboards, I’m either contributing to open-source projects or geeking out over the latest in AI/cloud tech. Let’s build something remarkable! &nbsp;
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

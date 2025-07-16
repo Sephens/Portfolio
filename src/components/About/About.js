@@ -15,10 +15,10 @@ export default function About() {
       <Container>
         <Row style={{ justifyContent: "center", padding: "2px" }}>
           <Col
-            md={3}
+            md={6}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "2px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              More than just a Resume <strong className="purple"> - Here’s My Story </strong>
             </h1>
            
           </Col>

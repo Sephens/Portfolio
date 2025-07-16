@@ -21,17 +21,17 @@ export default function Home() {
           <Row>
             {/* // Column for the left side of the row (containing text content) */}
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 6 }} className="heading">
-                Hello{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+              <h1 style={{ paddingBottom: 16 }} className="heading">
+                Transforming Data into Insights, Code into Solutions, and Clouds into Scalable Power
               </h1>
 
-              <h1 className="heading-name">
-                I'M 
-                <strong className="main-name purple"> STEVE</strong>
-              </h1>
+              <h2  style={{ paddingBottom: 16, fontSize: "1em" }} className="heading2">
+              <span className="purple">Data Alchemist - Developer, Machine Learning Engineer & Cloud  </span>
+            </h2>
+            
+              <h2  style={{ paddingBottom: 12, fontSize: "1em" }} className="heading2">
+              Welcome <span className="purple"> To </span> My Digital Hub! 
+            </h2>
 
               <div style={{ padding: 20, textAlign: "left" }}>
                 <Type />
@@ -50,7 +50,7 @@ export default function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      {/* <Home2 /> */}
     </section>
   );
 }

@@ -26,10 +26,10 @@ export default function Certs() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My <strong className="purple">Certificates </strong>
+          My <strong className="purple">Certifications </strong>
         </h1>
         <p style={{ color: "white" }}>
-          These are my Achievements so far ...
+          These are some of my Achievements so far ...
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 

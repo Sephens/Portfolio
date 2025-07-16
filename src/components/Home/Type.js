@@ -6,17 +6,13 @@ export default function Type() {
     <Typewriter
       options={{
         strings: [
-          "Data Analyst",
-          "Python Developer",
-          "AWS Certified Cloud Practioner",
-          "Cloud Engineer",
-          "Machine Learning",
-          "IT Technical Support Specialist",
-          "Cyber Security Analyst"
+              "📌 I build intelligent ML models & stunning dashboards (Power BI/Tableau).",
+              "📌 I architect scalable AWS cloud solutions & responsive frontend experiences.",
+              "📌 I connect networks and data pipelines to drive real-world impact."
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 10,
+        deleteSpeed: 20,
       }}
     />
   );
